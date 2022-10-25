@@ -21,7 +21,7 @@ function Post({ name, description, message, }) {
             <p>{message}</p>
         </div>
 
-        <div className="post_buttons">
+        <div className="post__buttons">
             <InputOption Icon={ThumbUpAltOutlinedIcon} title='Like' color='gray' />
             <InputOption Icon={ChatOutlinedIcon} title='Comment' color='gray' />
             <InputOption Icon={ShareOutlinedIcon} title='Share' color='gray' />
