@@ -19,7 +19,7 @@ function App() {
       <Sidebar />
       <Feed />
       {/* {Widgets} */}
-    </div>
+      </div>
     )}
 
     </div>

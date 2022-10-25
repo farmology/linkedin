@@ -1,9 +1,25 @@
 import React from 'react';
 import './Login.css';
+import logo from './LinkedIn.png';
 
 function Login() {
-  return (
-    <div className='login'>You are not logged in. Access denied.</div>
+    const loginToApp = () => {};
+    const register = () => {};
+    return (
+    <div className='login'>
+        <img src={logo} alt='LinkedIn logo' />
+
+        <form>
+            <input placeholder='Full name (required if registering)' type='text' />
+            <input placeholder='Profile pic url (optional)' type='text' />
+            <input placeholder='Email' type='email' />
+            <input placeholder='Password' type='password' />
+            <button type='submit' onClick={loginToApp} >Sign In</button>
+        </form>
+        <p>Not a member?{' '}
+            <span className='login__register' onClick={register}>Register Now</span>
+        </p>
+    </div>
   )
 }
 
