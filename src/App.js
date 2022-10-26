@@ -9,7 +9,7 @@ import Login from './Login';
 import Sidebar from './Sidebar';
 
 function App() {
-  const user = useSelector(selectUser)
+  const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
   useEffect(() => {
